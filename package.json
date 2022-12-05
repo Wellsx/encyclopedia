@@ -1,0 +1,29 @@
+{
+  "name": "planetsoft_wikipedia",
+  "version": "1.0.0",
+  "description": "Encyclopedia E2E tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "npx cypress run --e2e --browser chrome --headless --env allure=true,allureResultsPath=TestResults/results"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wellsx/encyclopedia.git"
+  },
+  "author": "Stefan Veleušić",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wellsx/encyclopedia/issues"
+  },
+  "homepage": "https://github.com/Wellsx/encyclopedia#readme",
+  "dependencies": {
+    "cypress": "^11.2.0"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "allure-commandline": "^2.20.1",
+    "mocha-allure-reporter": "^1.4.0",
+    "moment": "^2.29.4"
+  }
+}
