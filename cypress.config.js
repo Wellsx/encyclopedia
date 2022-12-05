@@ -12,11 +12,11 @@ module.exports = defineConfig({
     video: false,
     watchForFileChanges: false,
     defaultCommandTimeout: 20000,
-  },
-  env: {
-    allureReuseAfterSpec: true,
-    allure: true,
-    allureResultsPath: '../TestResults/results',
-    allureLogCypress: true,
+
+    env: {
+      allureReuseAfterSpec: true,
+      allure: true,
+      allureLogCypress: true,
+    },
   },
 });

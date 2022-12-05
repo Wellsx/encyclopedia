@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Dec 05 16:16:23 CET 2022","Mon Dec 05 16:16:24 CET 2022","1159","","Search for a document","","","","Click on the search bar and search for a document",""
+"passed","Mon Dec 05 16:16:17 CET 2022","Mon Dec 05 16:16:19 CET 2022","1353","","Open a random page","","","","Clicks on the Random Page button",""
+"passed","Mon Dec 05 16:16:11 CET 2022","Mon Dec 05 16:16:13 CET 2022","2359","","Create a document with an already existing title","","","","Tests the duplicate document error",""
+"passed","Mon Dec 05 16:16:02 CET 2022","Mon Dec 05 16:16:05 CET 2022","3075","","Creating a new page","","","","Creates a new page",""
