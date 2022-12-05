@@ -30,5 +30,13 @@ class NewPage {
       .should('be.visible')
       .and('contain', 'Document already exist');
   }
+  verify_mandatory_title_field() {
+    cy.get('[type="submit"]').should('be.visible').click();
+    cy.get('#id_title').should('be.visible').and('be.focused');
+  }
+  verify_mandatory_content_field() {
+    cy.get('[type="submit"]').should('be.visible').click();
+    cy.get('#id_content').should('be.visible').and('be.focused');
+  }
 }
 export default new NewPage();
