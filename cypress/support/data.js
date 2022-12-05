@@ -14,5 +14,7 @@ class Data {
   content = 'Lorem ipsum';
 
   uniqueTitle = 'Python';
+
+  device = 'macbook-15';
 }
 export default new Data();

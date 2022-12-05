@@ -5,7 +5,7 @@ import Data from '../support/data';
 
 describe('Create a document with an already existing title', () => {
   it('Tests the duplicate document error', () => {
-    HomePage.visit_HomePage();
+    HomePage.visit_HomePage(Data.device);
     SideBar.click_create_new_page();
     NewPage.enter_title(Data.uniqueTitle)
       .enter_content(Data.content)

@@ -3,7 +3,7 @@ import SideBar from '../POM/components/side.bar';
 
 describe('Open a random page', () => {
   it('Clicks on the Random Page button', () => {
-    HomePage.visit_HomePage();
+    HomePage.visit_HomePage(Data.device);
     SideBar.click_random_page();
   });
 });

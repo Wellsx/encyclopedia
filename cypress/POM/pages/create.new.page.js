@@ -19,7 +19,7 @@ class NewPage {
   click_create() {
     cy.get('[type="submit"]').should('be.visible').click();
     cy.url().should('contain', Cypress.config().baseUrl + 'wiki/');
-
+    cy.get('h1').should('be.visible').and('have.text');
     return this;
   }
 

@@ -5,7 +5,7 @@ import Data from '../support/data';
 
 describe('Creating a new page', () => {
   it('Creates a new page', () => {
-    HomePage.visit_HomePage();
+    HomePage.visit_HomePage(Data.device);
     SideBar.click_create_new_page();
     NewPage.enter_title(Data.title).enter_content(Data.content).click_create();
   });
